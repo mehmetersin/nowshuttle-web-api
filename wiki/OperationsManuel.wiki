@@ -1,0 +1,18 @@
+GetUserByEmail
+
+Request;
+
+http://localhost:8686/NowShuttleWebApi/operations/getUserByEmail?email=meh@gmail.com
+
+
+Response ;
+
+{"displayName":"Mehmet","status":"1","password":null,"userId":19,"email":"meh@gmail.com"}
+
+
+CheckUser 
+
+http://localhost:8686/NowShuttleWebApi/operations/checkUser
+
+{"displayName":"Mehmet","status":"1","password":"1","userId":19,"email":"meh@gmail.com"}
+
